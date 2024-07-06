@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.abc{
+    background-color: rgba(0, 0, 0, 0.767);
+    opacity: .2;
+}
