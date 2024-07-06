@@ -6,6 +6,7 @@ import Navbar from '../Component/Home/Navbar'
 import Banner from '../Component/Home/Banner'
 import LuxuryHotel from '../Component/Home/LuxuryHotel'
 import FaciliServices from '../Component/Home/FaciliServices'
+import SuperiorSingleRoom from '../Component/Home/SuperiorSingleRoom'
 
 
 function Home() {
@@ -15,7 +16,9 @@ function Home() {
       <Banner/>
       <LuxuryHotel/>
       <RoomsSuits />
+      <SuperiorSingleRoom/>
       <FaciliServices/>
+      <RoomsSuits />
       <NewsletterSignUp />
       <FollowUsInstagram />
     </>

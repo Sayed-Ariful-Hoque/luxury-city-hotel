@@ -6,28 +6,28 @@ import TitleLogo from '../../Layer/TitleLogo'
 function FaciliServices() {
 
     // service01 
-    let [service01, setService01] = useState(true)
+    let [service01, setService01] = useState(false)
 
     let Service01Click = () => {
         setService01(!service01)
     }
 
     // service02 
-    let [service02, setService02] = useState(true)
+    let [service02, setService02] = useState(false)
 
     let Service02Click = () => {
         setService02(!service02)
     }
 
     // service03 
-    let [service03, setService03] = useState(true)
+    let [service03, setService03] = useState(false)
 
     let Service03Click = () => {
         setService03(!service03)
     }
 
     // service04 
-    let [service04, setService04] = useState(true)
+    let [service04, setService04] = useState(false)
 
     let Service04Click = () => {
         setService04(!service04)
@@ -36,7 +36,7 @@ function FaciliServices() {
     }
     return (
         <>
-            <div className=' bg-[#664831]  py-40 mb-1'>
+            <div className=' bg-[#664831]  py-40'>
                 <div className='  xl:flex  xl:w-[1200px] lg:flex lg:w-[1000px] md:flex md:w-[700px] px-3 xl:px-0 m  gap-x-6 items-center mx-auto justify-center'>
                     <div className="leftPart">
                         <img src={FacilitiesServices01} alt="FacilitiesServices01" />
@@ -91,7 +91,7 @@ function FaciliServices() {
                                 )
                             }
                         </div>
-                        
+
                     </div>
                 </div>
             </div >
