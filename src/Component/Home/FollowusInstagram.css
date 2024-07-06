@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.imgs01{
+    position: relative;
+    background-color: white;
+}
+
+.imgs01::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s ease;
+}
+.imgs01:hover:before{
+    background-color: black;
+    opacity: .3;
+    visibility: visible;
+
+}
+
+
+.overlay{
+    font-size: 60px;
+    position: relative;
+    /* bottom: 66%;
+    left: 35%; */
+ 
+    color: white;
+    opacity: 0;
+    transition: all .2s ease;
+}
+
+.imgs01:hover .overlay{
+    position: relative;
+    opacity: .5;
+}
