@@ -6,11 +6,17 @@ import SuperiorSingleRoom04 from "/src/assets/SuperiorSingleRoom/SuperiorSingleR
 import Slider from '@ant-design/react-slick';
 import "slick-carousel/slick/slick.css";
 import SiliderText from '../../Layer/SiliderText'
+import { GrNext, GrPrevious } from 'react-icons/gr'
+
+
 
 function SuperiorSingleRoom() {
 
-    var settings = {
-        dots: true,
+    var settings  = {
+        className:"",
+        prevArrow:<GrPrevious />,
+        nextArrow:<GrNext />,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
@@ -19,12 +25,12 @@ function SuperiorSingleRoom() {
 
     return (
         <>
-            <div>
+            <div className=''>
 
                 <Slider {...settings}>
-                    <div className="  bg-[url('/src/assets/SuperiorSingleRoom/SuperiorSingleRoom01.jpg')]  h-[700px] bg-cover bg-no-repeat object-center bg-center relative  ">
+                    <div className="  bg-[url('/src/assets/SuperiorSingleRoom/SuperiorSingleRoom01.jpg')]  h-[700px]  bg-cover bg-no-repeat object-center bg-center relative  ">
                             <p className='  bg-[#473b31] opacity-[0.8] absolute w-full h-full  '></p>
-                            <SiliderText Texth2="Superior Double Room" />
+                            <SiliderText  Texth2="Superior Double Room" />
                     </div>
                     <div className="  bg-[url('/src/assets/SuperiorSingleRoom/SuperiorSingleRoom02.jpg')]  h-[700px] bg-cover bg-no-repeat object-center bg-center relative  ">
                             <p className='  bg-[#473b31] opacity-[0.8] absolute w-full h-full  '></p>

@@ -6,7 +6,7 @@ import "/src/Component/Home/LuxuryHotel.css"
 function LuxuryHotel() {
     return (
         <>
-            <div className='py-40 bg-[#f7f6f6]'>
+            <div className='py-36 bg-[#f7f6f6]'>
                 <div className='  xl:w-[1200px] mx-auto xl:flex lg:flex justify-center items-center px-3 xl:px-0 lg:px-0 gap-6'>
                     <div className='leftPart'>
                         <div className=" flex justify-center items-center  ">
