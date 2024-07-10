@@ -1,5 +1,5 @@
 import React from 'react'
-import TitleLogo from '../Layer/TitleLogo'
+import TitleLogo from '../../Layer/TitleLogo'
 
 function RoomsSuits() {
   return (
