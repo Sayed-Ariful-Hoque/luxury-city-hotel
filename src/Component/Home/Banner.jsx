@@ -6,7 +6,7 @@ import { FaRegCirclePlay } from 'react-icons/fa6'
 function Banner() {
     return (
         <>
-            <div>
+            <div className=''>
                 <div className=" relative  bg-[url('/src/assets/Banner/bannerImgs01.jpg')]   xl:h-[1100px] lg:h-[1000px] md:[h-800px] h-auto bg-cover bg-no-repeat bg-center">
                     <div  className=' w-full h-full absolute  opacity-[.3] bg-black  '></div>
                     <TitleLogo  classNameh2="drop-shadow-md" className="  xl:pt-[400px] lg:pt-[300px] md:pt-[300px] sm:pt-[200px]  text-white pt-10 " classNameP='drop-shadow-md text-white' pText="time to reconnect" h2Text=" New Vision of Comfort" />

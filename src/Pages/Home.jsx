@@ -7,18 +7,20 @@ import Banner from '../Component/Home/Banner'
 import LuxuryHotel from '../Component/Home/LuxuryHotel'
 import FaciliServices from '../Component/Home/FaciliServices'
 import SuperiorSingleRoom from '../Component/Home/SuperiorSingleRoom'
+import SpecialOffers from '../Component/Home/SpecialOffers'
 
 
 function Home() {
   return (
     <>
       <Navbar />
-      <Banner/>
-      <LuxuryHotel/>
+      <Banner />
+      <LuxuryHotel />
       <RoomsSuits />
-      <SuperiorSingleRoom/>
-      <FaciliServices/>
+      <SuperiorSingleRoom />
+      <FaciliServices />
       <RoomsSuits />
+      <SpecialOffers/>
       <NewsletterSignUp />
       <FollowUsInstagram />
     </>

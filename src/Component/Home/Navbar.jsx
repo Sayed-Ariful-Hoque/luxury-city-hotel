@@ -14,7 +14,7 @@ function Navbar() {
 
     return (
         <>
-            <div className="Navbar bg-[#473d35] py-7 ">
+            <div className="Navbar bg-[#473d35] py-7 top-0 z-[1] sticky w-full">
                 <div className=' xl:w-[1424px] mx-auto flex flex-wrap lg:w-[1000px]  justify-between px-4 '>
                     <div className="LeftPart text-white flex justify-center  gap-4 ">
                         <div className=' '>

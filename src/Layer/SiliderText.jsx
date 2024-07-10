@@ -3,7 +3,7 @@ import React from 'react'
 function SiliderText({Texth2}) {
     return (
         <>
-            <div className=' text-center xl:w-[800px]  text-white drop-shadow mx-auto mt-[10%] px-3 xl:px-0 lg:px-0  '>
+            <div className=' text-center xl:w-[800px] lg:w-[700px] md:w-[600px] w-[300px]  text-white drop-shadow mx-auto mt-[10%] px-3 xl:px-0 lg:px-0  '>
                 <div>
                     <h2 className='  py-7 font-medium font-serif xl:text-6xl lg:text-5xl text-4xl  '>{Texth2}</h2>
                     <p className='xl:py-10 pb-36 xl:text-[22px] lg:text-[22px] md:text-[20px] font-serif mb-10 '> Donec porta diam eu massa. Quisque diam lorem, interdum
