@@ -39,13 +39,13 @@ function SpecialOffers() {
                 modules={[EffectCoverflow, Pagination]}
                 className="mySwiper"
             >
-                <SwiperSlide className=' xl:w-[900px] xl:h-[700px] h-[580px]'>
+                <SwiperSlide className=' xl:w-[900px] xl:h-[700px] lg:h-[650px]  h-[580px]'>
                             <SwiperSiliderText src={SpecialOffers01} h4Text="Stay Longer" />
                 </SwiperSlide>
-                <SwiperSlide className='xl:w-[900px] xl:h-[700px] h-[580px] '>
+                <SwiperSlide className='xl:w-[900px] xl:h-[700px] lg:h-[650px]  h-[580px] '>
                             <SwiperSiliderText src={SpecialOffers02} h4Text="Honeymoon Package" />
                 </SwiperSlide>
-                <SwiperSlide className=' xl:w-[900px] xl:h-[700px] h-[580px]'>
+                <SwiperSlide className=' xl:w-[900px] xl:h-[700px] lg:h-[650px] h-[580px]'>
                             <SwiperSiliderText src={SpecialOffers03} h4Text="E-Bike Sightseeing" />
                 </SwiperSlide>
             
